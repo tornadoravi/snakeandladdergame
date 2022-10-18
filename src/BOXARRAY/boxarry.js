@@ -35,6 +35,7 @@ else{
 }
 }
 const snakeLadder=[
+    {from:1,to:1,icon:'🏁'},
     {from:83,to:40,icon:'🐍to 40'},
     {from:17,to:5,icon:'🐍to 5'},
     {from:56,to:21,icon:'🐍to 21'},
@@ -45,6 +46,7 @@ const snakeLadder=[
     {from:36,to:80,icon:'🎠to 80'},
     {from:70,to:49,icon:'🎠to 90'},
     {from:44,to:73,icon:'🎠to 74'},
+    {from:100,to:100,icon:'🏆'}
 
 ]
 
@@ -56,24 +58,7 @@ snakeLadder.forEach(snakeLadderElement => {
         }
     });
 });
-// const ladderUp=[
-//     {from:9,to:22,icon:'🎠to 22'},
-//     {from:17,to:5,icon:'🎠to 5'},
-//     {from:36,to:80,icon:'🎠to 80'},
-//     {from:70,to:49,icon:'🎠to 90'},
-//     {from:44,to:73,icon:'🎠to 74'},
 
-// ]
-
-// ladderUp.forEach(element => {
-//     boxArr.forEach(element1 => {
-//         if(element1.cellNUM===element.from){
-//             element1.icon=element.icon
-//             element1.to=element.to
-            
-//         }
-//     });
-// });
   
 
 
@@ -87,4 +72,3 @@ snakeLadder.forEach(snakeLadderElement => {
 export default boxArr
 
 
-// {21:{from:21 to:40}}

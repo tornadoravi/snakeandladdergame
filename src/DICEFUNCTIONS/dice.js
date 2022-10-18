@@ -17,8 +17,6 @@ export default function Dice() {
   const [player1currentposition, setplayercurrentposition] = useState(1)
   const [player2currentposition, setplayer2currentposition] = useState(1)
   // const [playerturn, setPlayerturn] = useState("CLICK")
-
-
   function dicerollfunction() {
     let diceRandom = (Math.floor(Math.random() * 6) + 1)
     if ((player1Position + diceRandom) <= 100 && (player2Position + diceRandom) <= 100) {
@@ -38,10 +36,10 @@ export default function Dice() {
             if (ids.to !== '') {
               boxArr.forEach(cell => {
                 if (ids.to === cell.cellNUM) {
-                  // console.log("valid3")
+               
                   let indexvalue = boxArr.indexOf(cell)
                   boxArr[indexvalue].players.Player1 = 'in'
-                  // console.log("valid5")
+                 
                   setPlayer1Position(cell.cellNUM)
                   setplayercurrentposition((cell.cellNUM))
 
@@ -62,7 +60,6 @@ export default function Dice() {
       }
       else if (refClickCount % 2 === 0) {
         console.log("player2", diceRandom, refClickCount)
-        // setPlayerturn("PLAYER 2 TURN")
         setDiceRoll("PLAYER-2🔘ROLL DICE")
 
         setrandomdice(diceRandom)
