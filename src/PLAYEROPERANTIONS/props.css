@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+.boxs{
+    min-width: 40%;
+    margin: 3%;
+    border-radius: 10px;
+    border: 4px solid rgba(112, 112, 112, 0.603);
+    height: 70px;
+    /* background-color: aquamarine; */
+    
+}
+.numtitle{
+    font-weight: bolder;
+    color: rgb(151, 35, 35);
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.splcelicons{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: bolder
+}
+.move {
+    font-size: 30px;
+}
+.cell99{
+    background-color: rgba(223, 90, 38, 0.705);
+}
+.cell83{
+    background-color: rgba(223, 90, 38, 0.705);
+}
+.cell75{
+    background-color: rgba(223, 90, 38, 0.705);
+}
+.cell70{
+    background-color: rgba(107, 157, 0, 0.788);
+}
+.cell56{
+    background-color: rgba(223, 90, 38, 0.705);
+}
+.cell44{
+    background-color: rgba(107, 157, 0, 0.788);
+}
+.cell36{
+    background-color: rgba(107, 157, 0, 0.788);
+}
+.cell24{
+    background-color: rgba(107, 157, 0, 0.788);
+}
+.cell9{
+    background-color: rgba(107, 157, 0, 0.788);
+}
+.cell17{
+    background-color: rgba(223, 90, 38, 0.705);
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Monofett&family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Monofett&family=Moo+Lah+Lah&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Gochi+Hand&family=Monofett&family=Moo+Lah+Lah&family=Permanent+Marker&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Gochi+Hand&family=Monofett&family=Moo+Lah+Lah&family=Permanent+Marker&family=Rye&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Gochi+Hand&family=Lemon&family=Monofett&family=Moo+Lah+Lah&family=Permanent+Marker&family=Rye&family=Yuji+Mai&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.bodysmain{
+    width: 100vw;
+    height: 150vh;
+    background-image: url(../assects/jungle-cartoon-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+}
+#dicerollbutton{
+    width: 50%;
+    color:96B710;
+    font-size: 30px;
+    border: none;
+    background-color:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#dicerollbutton:hover{
+    background-color:rgba(107, 157, 0, 0.644);
+    color: white;
+}
+.boardsgrid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.26);
+    border-radius: 6px;
+} 
+
+.sprate{
+    display: flex;
+    justify-content: space-around;
+}
+.sidenav{
+    width:30%;
+    height: 100%;
+}
+.main1{
+    margin: 6%;
+    width: 70%;
+}
+#gametitleid{
+    width: 90%;
+}
+.main2{
+    margin-top: 10%;
+    margin-left: 12%;
+    width: 80%;
+    height: 90%;
+    background-color: rgba(100, 100, 100, 0.301);
+    border-radius: 10%;
+}
+#dicerollbutton{
+    margin-top: 10%;
+    font-family: 'Rye', cursive;
+}
+.diceroll{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+.dicerandoms{
+    font-size: 60px;
+    font-family: 'Monofett', cursive;
+}
+.main3{
+    width: 80%;
+    height: 90%;
+    margin-top: 10%;
+    margin-left: 12%;
+    background-color:rgba(130, 77, 11, 0.61);
+    border-radius: 8px;
+
+}
+.currentpostion1{
+    font-size: 25px;
+    color: white;
+    font-family: 'Yuji Mai', serif;
+}
+.currentpostion2{
+    font-size: 25px;
+    color: white;
+    font-family: 'Yuji Mai', serif;
+}
+
+.playerswinners{
+font-family: 'Lemon', cursive;
+}  
+.main4{
+    margin-top: 10%;
+    margin-left: 12%;
+    background-color: rgba(100, 100, 100, 0.301);
+    border-radius: 10%;
+    width: 80%;
+    height: 90%;
+}  
+
+
+

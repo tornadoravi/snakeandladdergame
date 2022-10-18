@@ -1,0 +1,15 @@
+#resetbuttonid{
+    margin-top: 10%;
+    font-family: 'Rye', cursive;
+    color:black;
+    font-size: 30px;
+    border: none;
+    background-color:none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#resetbuttonid:hover{
+    background-color:rgba(107, 157, 0, 0.644);
+    color: white;
+}
