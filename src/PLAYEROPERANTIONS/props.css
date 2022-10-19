@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Moo+Lah+Lah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 .boxs{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
     min-width: 40%;
     margin: 3%;
     border-radius: 10px;
@@ -17,41 +18,73 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 .splcelicons{
+   
     font-family: 'Fuzzy Bubbles', cursive;
     font-size: 13px;
     color: rgba(0, 0, 0, 0.863);
     font-weight: bolder
 }
 .move {
-    font-size: 30px;
+    font-size: 20px;
 }
+
+
 .cell99{
-    background-color: rgba(223, 90, 38, 0.705);
+    
+    background-image: url('../assects/Free\ Animated\ Snake\ Gifs.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .cell83{
-    background-color: rgba(223, 90, 38, 0.705);
+    background-image: url('../assects/Free\ Animated\ Snake\ Gifs.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .cell75{
-    background-color: rgba(223, 90, 38, 0.705);
+    background-image: url('../assects/Free\ Animated\ Snake\ Gifs.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.cell70{
-    background-color: rgba(107, 157, 0, 0.788);
-}
+
+/* .cell70{
+    background-image: url('../assects/ladders.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
 .cell56{
-    background-color: rgba(223, 90, 38, 0.705);
+    background-image: url('../assects/Free\ Animated\ Snake\ Gifs.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.cell44{
-    background-color: rgba(107, 157, 0, 0.788);
-}
-.cell36{
-    background-color: rgba(107, 157, 0, 0.788);
-}
-.cell24{
-    background-color: rgba(107, 157, 0, 0.788);
-}
-.cell9{
-    background-color: rgba(107, 157, 0, 0.788);
-}
+
+/* .cell44{
+    background-image: url('../assects/ladders.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* .cell36{
+    background-image: url('../assects/ladders.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* .cell24{
+    background-image: url('../assects/ladders.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* .cell6{
+    background-image: url('../assects/ladders.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
 .cell17{
-    background-color: rgba(223, 90, 38, 0.705);
+    background-image: url('../assects/Free\ Animated\ Snake\ Gifs.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

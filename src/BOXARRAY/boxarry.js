@@ -1,4 +1,5 @@
-let boxArr=[]
+
+    let boxArr=[]
 let row = 10
 let coloum = 10
 let  oddOrEven=0
@@ -41,14 +42,16 @@ const snakeLadder=[
     {from:56,to:21,icon:'🐍to 21'},
     {from:75,to:49,icon:'🐍to 49'},
     {from:99,to:7,icon:'🐍to 7'},
-    {from:9,to:22,icon:'🎠to 22'},
+    {from:6,to:13,icon:'🎠to 13'},
     {from:24,to:45,icon:'🎠to 45'},
     {from:36,to:80,icon:'🎠to 80'},
-    {from:70,to:49,icon:'🎠to 90'},
+    {from:70,to:95,icon:'🎠to 95'},
     {from:44,to:73,icon:'🎠to 74'},
     {from:100,to:100,icon:'🏆'}
 
 ]
+
+
 
 snakeLadder.forEach(snakeLadderElement => {
     boxArr.forEach(cellElement => {
@@ -58,6 +61,12 @@ snakeLadder.forEach(snakeLadderElement => {
         }
     });
 });
+
+
+
+
+
+
 
   
 

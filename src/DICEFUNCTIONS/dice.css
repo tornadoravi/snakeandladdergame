@@ -108,5 +108,101 @@ font-family: 'Lemon', cursive;
     height: 90%;
 }  
 
+.ladderspostion{
+    position: absolute;
+  
+
+}
+#ladder1{
+    position: absolute;
+    height: 170px;
+    width: 30px;
+    rotate: 30deg;
+    margin-top: 33rem;
+    margin-left: 5rem;
+}
+#ladder2{
+    position: absolute;
+    height: 170px;
+    width: 30px;
+    rotate: -45deg;
+    margin-top: 28rem;
+    margin-left: 4rem;
+}
+#ladders2{
+    position: absolute;
+    height: 170px;
+    width: 30px;
+    rotate: -45deg;
+    margin-top: 21.2rem;
+    margin-left: -2.8rem;
+}
+#ladderss2{
+    position: absolute;
+    height: 170px;
+    width: 30px;
+    rotate: -45deg;
+    margin-top: 15.6rem;
+    margin-left: -8.3rem;
+}
 
 
+
+#ladder3{
+    position: absolute;
+    height: 170px;
+    width: 30px;
+    rotate: 45deg;
+    margin-top: 24rem;
+    margin-left: 6rem;
+}
+#ladders3{
+    position: absolute;
+    height: 170px;
+    width: 30px;
+    rotate: 45deg;
+    margin-top: 17rem;
+    margin-left: 13rem;
+}
+
+
+
+
+#ladder4{
+    position: absolute;
+    height: 180px;
+    width: 30px;
+    rotate: -51deg;
+    margin-top: 13.9rem;
+    margin-left: 27rem;
+}
+#ladders4{
+    position: absolute;
+    height: 180px;
+    width: 30px;
+    rotate: -50deg;
+    margin-top: 7rem;
+    margin-left: 18.5rem;
+}
+
+
+#ladder5{  
+      position: absolute;
+    height: 150px;
+    width: 30px;
+    rotate: 60deg;
+    margin-top: 47rem;
+    margin-left: 17rem;
+}
+#snakepostionSS{
+    position: absolute;
+}
+#snake1{
+    position: absolute;
+     height: 150px;
+    width: 100px; 
+    rotate: -50deg;
+    margin-top: 47rem;
+    margin-left: 3rem;
+
+}

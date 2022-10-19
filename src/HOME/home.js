@@ -1,11 +1,11 @@
 import React from 'react'
-import Mainfunction from '../MAINGAMEINGFUNCTION/mainfunction'
+import Dice from '../DICEFUNCTIONS/dice'
 
 export default function Home() {
   
   return (
     <div>
-        <Mainfunction/>
+        <Dice />
     </div>
   )
 }

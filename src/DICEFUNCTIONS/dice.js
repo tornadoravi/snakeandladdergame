@@ -4,26 +4,34 @@ import GameTitle from '../assects/snl-logo.75a58625.png'
 import './dice.css'
 import PlayersFunction from '../PLAYEROPERANTIONS/Props'
 import Reset from '../RESETGAME/restet'
-
-
+import ladderspostions from '../assects/pinpng.com-ladder-clipart-png-3985544.png'
+import Snakesspostions from '../assects/24795-s-snake-clipart.png'
 
 let refClickCount = 0
 export default function Dice() {
   const [diceRoll, setDiceRoll] = useState("start")
-  const [player1Position, setPlayer1Position] = useState(1)
-  const [player2Position, setPlayer2Position] = useState(1)
+  const [player1Position, setPlayer1Position] = useState(0)
+  const [player2Position, setPlayer2Position] = useState(0)
   const [playerswinner, setPlayerwinner] = useState()
-  const [randomdice, setrandomdice] = useState(1)
-  const [player1currentposition, setplayercurrentposition] = useState(1)
-  const [player2currentposition, setplayer2currentposition] = useState(1)
+  const [randomdice, setrandomdice] = useState(0)
+  const [player1currentposition, setplayercurrentposition] = useState(0)
+  const [player2currentposition, setplayer2currentposition] = useState(0)
   // const [playerturn, setPlayerturn] = useState("CLICK")
   function dicerollfunction() {
     let diceRandom = (Math.floor(Math.random() * 6) + 1)
     if ((player1Position + diceRandom) <= 100 && (player2Position + diceRandom) <= 100) {
-      refClickCount += 1
 
 
-      if (refClickCount % 2 === 1) {
+      if (refClickCount % 2 === 0) {
+        if (diceRandom === 1 || diceRandom === 5 || diceRandom === 6) {
+          refClickCount = refClickCount
+          console.log(refClickCount, "player 1 passs")
+        }
+
+        else {
+          refClickCount += 1
+          console.log(refClickCount, "not valid 561")
+        }
         console.log("player1", diceRandom, refClickCount)
         // setPlayerturn("PLAYER 1 TURN")
         setDiceRoll("PLAYER-1💠ROLL DICE")
@@ -36,10 +44,10 @@ export default function Dice() {
             if (ids.to !== '') {
               boxArr.forEach(cell => {
                 if (ids.to === cell.cellNUM) {
-               
+
                   let indexvalue = boxArr.indexOf(cell)
                   boxArr[indexvalue].players.Player1 = 'in'
-                 
+
                   setPlayer1Position(cell.cellNUM)
                   setplayercurrentposition((cell.cellNUM))
 
@@ -58,7 +66,15 @@ export default function Dice() {
         })
 
       }
-      else if (refClickCount % 2 === 0) {
+      else if (refClickCount % 2 === 1) {
+        if (diceRandom === 1 || diceRandom === 5 || diceRandom === 6) {
+          refClickCount = refClickCount
+          console.log(refClickCount, "player 2 passs condision")
+        }
+        else {
+          refClickCount += 1
+          console.log(refClickCount, "not valid 561")
+        }
         console.log("player2", diceRandom, refClickCount)
         setDiceRoll("PLAYER-2🔘ROLL DICE")
 
@@ -96,17 +112,19 @@ export default function Dice() {
       console.log('arrest limit')
     }
     if ((player1Position) === 100) {
-      setPlayerwinner("player1winner")
+      setPlayerwinner("🏆player1winner🕺")
       console.log('player 1 winner')
     }
     else if ((player2Position) === 100) {
-      setPlayerwinner("player2winner")
+      setPlayerwinner("🏆player2winner🕺")
       console.log('player 2 winner')
     }
   }
   return (
     <div className="bodysmain">
+
       <div className='playersRollDice'>
+
         <div className="sprate">
           <div className="sidenav">
 
@@ -135,6 +153,7 @@ export default function Dice() {
           </div>
 
           <div className="main1">
+
             <div className='boardsgrid'>
               {
                 boxArr.map(ele => <PlayersFunction key={ele.from} id={ele.id} players={ele.players} className={ele.className} cellNUM={ele.cellNUM} splCel={ele.icon} />)
@@ -142,9 +161,60 @@ export default function Dice() {
               }
             </div>
           </div>
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladder1' />
+          </div>
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladder2' />
+          </div>
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladders2' />
+          </div>
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladderss2' />
+          </div>
+
+
+
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladder3' />
+          </div>
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladders3' />
+          </div>
+
+
+
+
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladder4' />
+          </div>
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladders4' />
+          </div>
+
+
+          <div className="ladderspostion">
+            <img src={ladderspostions} alt="" id='ladder5' />
+          </div>
+
+
+
+
+
+          {/* <div className="ladderspostion">
+            <img src={Snakesspostions} alt="" id='snake1' />
+          </div>
+ */}
+
+
+
+
+
 
         </div>
       </div>
+
     </div>
 
   )
